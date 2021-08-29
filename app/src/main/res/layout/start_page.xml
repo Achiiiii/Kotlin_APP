@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reqButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:layout_marginBottom="174dp"
+        android:gravity="center"
+        android:text="Astronomy Picture of the Day"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:layout_marginHorizontal="10dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMaxTextSize="24sp"/>
+
+    <Button
+        android:id="@+id/reqButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:text="Request"
+        android:textColor="#00AEFF" />
+
+</FrameLayout>
